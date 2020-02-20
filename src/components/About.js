@@ -17,7 +17,10 @@ function About(props) {
           <Title />
           , the best spot in town for pasta and bread!
         </p>
-        <p>Here at our restaurant, we pride ourselves on the finest baking and culinary talents around.</p>
+        <p>
+          Here at our restaurant, we pride ourselves on the finest baking
+          and culinary talents around.
+        </p>
         <p>
           Our staff has been rated as the best in hospitality
           {' '}
