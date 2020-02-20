@@ -1,0 +1,23 @@
+#footer {
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 6px;
+}
+
+#credit {
+  margin-bottom: 0;
+  padding: 0.5em 2em;
+  box-shadow: 3px 3px #506770;
+  font-family: 'Francois One', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#credit a, #credit a:visited {
+  text-decoration: none;
+  color: #85D9D2;
+}
+
+#credit a:hover {
+  color: #6A846D;
+}

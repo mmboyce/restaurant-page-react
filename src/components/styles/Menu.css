@@ -1,15 +1,14 @@
 #menu-container {
-  margin-top: 4%;
-  margin-left: 5%;
-  width: 80%;
+  width: 75%;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .menu-grid {
   display: grid;
-  width: 100%;
-  grid-column-gap: 5%;
+  width: 90%;
+  grid-column-gap: 25%;
   margin-top: 3%;
 }
 
