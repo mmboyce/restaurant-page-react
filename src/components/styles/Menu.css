@@ -1,0 +1,35 @@
+#menu-container {
+  margin-top: 4%;
+  margin-left: 5%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-grid {
+  display: grid;
+  width: 100%;
+  grid-column-gap: 5%;
+  margin-top: 3%;
+}
+
+li {
+  list-style: none;
+  font-size: 123%;
+  margin-bottom: 3.2%;
+}
+
+.item {
+  text-align: left;
+  grid-column-start: 1;
+}
+
+.price {
+  text-align: right;
+  grid-column-start: 2;
+}
+
+h2 {
+  font-size: 210%;
+  margin: 0;
+}

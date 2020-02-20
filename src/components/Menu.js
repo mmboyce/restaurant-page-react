@@ -1,26 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Close from './Close';
+import './styles/Menu.css';
 
 function MenuSection(props) {
   const { title } = props;
   const { items } = props;
 
-  const list = items.map((item) => (
-    <li>
-      <span className="item">{item.name}</span>
-      <span className="price">{item.price}</span>
-    </li>
-  ));
+  const list = [];
+  for (let i = 0; i < items.length; i += 1) {
+    const item = items[i];
+
+    list.push(<li className="item">{item.name}</li>);
+    list.push(<li className="price">{item.price}</li>);
+  }
 
   return (
     <div className="menu-section">
       <h2>{title}</h2>
-      <div className="menu-grid">
-        <ul>
-          {list}
-        </ul>
-      </div>
+      <ul className="menu-grid">
+        {list}
+      </ul>
     </div>
   );
 }
