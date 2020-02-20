@@ -1,8 +1,15 @@
 .sitemap {
   text-align: center;
-  font-size: 2em;
+  font-size: 200%;
   width: 80%;
   margin: 0 auto;
-  margin-top: 5em;
-  margin-bottom: 1em;
+  margin-top: 13vh;
+}
+
+.ref:hover {
+  color: red;
+}
+
+#menuRef {
+  margin-top: 7vh;
 }
