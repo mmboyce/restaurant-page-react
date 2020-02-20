@@ -1,0 +1,11 @@
+#about-us {
+  font-size: 150%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4%;
+  width: 80%;
+}
+
+#about-us strong {
+  color: #6D312E;
+}

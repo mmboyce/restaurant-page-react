@@ -1,0 +1,15 @@
+.close {
+  margin-top: 4%;
+  margin-left: 5%;
+  background: black;
+  color: white;
+  width: max-content;
+  height: max-content;
+  padding: 1.25%;
+  box-sizing: border-box;
+  font-size: 150%;
+}
+
+.close:hover, .close:focus {
+  background: red;
+}

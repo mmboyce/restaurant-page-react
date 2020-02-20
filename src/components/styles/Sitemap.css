@@ -4,9 +4,16 @@
   width: 80%;
   margin: 0 auto;
   margin-top: 13vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.ref:hover {
+.ref {
+  width: max-content;
+}
+
+.ref:hover, .ref:focus {
   color: red;
 }
 

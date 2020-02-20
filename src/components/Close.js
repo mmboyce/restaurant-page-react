@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './styles/Close.css';
 
 function Close(props) {
   const { handleClose } = props;
