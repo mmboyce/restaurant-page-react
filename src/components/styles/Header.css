@@ -10,3 +10,9 @@
 .header>.title {
   margin-left: 13vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 12vh 0 3vh 0;
+  }
+}
