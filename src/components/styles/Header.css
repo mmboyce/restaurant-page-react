@@ -1,0 +1,12 @@
+.header {
+  background-image: url(../../img/header.jpeg);
+  background-position: -300px 40%;
+  padding: 24vh 0 5vh 0;
+  width: 100%;
+  font-size: 400%;
+  box-shadow: 0 0 13px black;
+}
+
+.header>.title {
+  margin-left: 13vw;
+}
